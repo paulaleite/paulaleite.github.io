@@ -14,11 +14,11 @@
 html,
 body {
     background-color: var(--background);
-    font-family: Montserrat;
+    font-family: Merriweather;
 }
 
 #intro {
-    height: 85vh;
+    height: 100vh;
 }
 
 #portfolio {
