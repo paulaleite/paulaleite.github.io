@@ -9,6 +9,8 @@
     --info: #EFEFEF;
     --shadow: 4px 4px 20px rgba(53, 56, 53, 0.15);
     --radius: 1rem;
+    --myGray: #767676;
+    --lightGrey: #8E8E8E;
 }
 
 html,
@@ -23,6 +25,7 @@ body {
 
 #portfolio {
     margin-bottom: 10vh;
+    margin-top: 5vh;
 }
 
 .vertical-center {
@@ -41,6 +44,15 @@ h1 {
 
 h2, h3, h4, h5, h6 {
     color: var(--sub);
+}
+
+.social-links {
+    color: var(--myGray);
+}
+
+.social-links:hover {
+    text-decoration: none;
+    color: var(--lightGrey);
 }
 
 .noPadding {

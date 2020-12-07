@@ -7,6 +7,7 @@
         <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://kit.fontawesome.com/e3b9a57937.js" crossorigin="anonymous"></script>
 
         <script src="./javascript/data.js"></script>
         <script src="./javascript/displayPortfolio.js"></script>
@@ -41,7 +42,7 @@
 
         <!-- About me -->
         <section id="intro" class="row align-items-center min-vh-100">
-            <div class="col-sm-12 col-md-6 mx-6 mb-4">
+            <div class="col-sm-12 col-md-5 mx-5 mb-4">
                 <img src="./assets/imagemPaula.jpg" alt="Picture of Paula Torales Leite" class="img rounded-circle img-responsive img-thumbnail" width="600rem">
             </div>
             <div class="col-sm-10 col-md-6">
@@ -50,21 +51,27 @@
                 <p id="introP2" class="mb-2 px-3">For now, what I do know is that I love people, videogames and coding. I like to meet new people, and I'm always eager to find out about new technologies and how we can use it to act on our everyday lives.</p>
                 <p id="introP3" class="mb-2 px-3">Come meet some of my work and don’t forget to get in contact with me if you have any questions.</p>
                 <div class="px-3">
-                    <a href="https://www.linkedin.com/in/paulatleite/"><img src="./assets/buttons/LinkedIN.png"  class="img-link float-left"></a>
-                    <a href="https://github.com/paulaleite"><img src="./assets/buttons/Github.png"  class="img-link spacing float-left"></a>
-                    <a href="https://medium.com/@paula.t.leite"><img src="./assets/buttons/Medium.png"  class="img-link spacing float-left"></a>
-                    <a href="mailto:paula.t.leite@icloud.com" target="_blank" class="clear"><img src="./assets/buttons/Email.png"  class="img-link spacing float-left"></a>
+                    <!-- <a href="https://www.linkedin.com/in/paulatleite/"><img src="./assets/buttons/LinkedIN.png"  class="img-link float-left"></a> -->
+                    <a href="https://www.linkedin.com/in/paulatleite/"><i class="fab fa-linkedin-in mx-2 h4 social-links"></i></a>
+                    <!-- <a href="https://github.com/paulaleite"><img src="./assets/buttons/Github.png"  class="img-link spacing float-left"></a> -->
+                    <a href="https://github.com/paulaleite"><i class="fab fa-github mx-2 h4 social-links"></i></a>
+                    <!-- <a href="https://medium.com/@paula.t.leite"><img src="./assets/buttons/Medium.png"  class="img-link spacing float-left"></a> -->
+                    <a href="https://medium.com/@paula.t.leite"><i class="fab fa-medium mx-2 h4 social-links"></i></a>
+                    <!-- <a href="mailto:paula.t.leite@icloud.com" target="_blank" class="clear"><img src="./assets/buttons/Email.png"  class="img-link spacing float-left"></a> -->
+                    <a href="mailto:paula.t.leite@icloud.com" target="_blank" class="clear"><i class="fas fa-envelope mx-2 h4 social-links"></i></a>
                 </div>
             </div>
         </section>
 
         <!-- Portfolio -->
         <section id="portfolio" class="container">
-            <h1 style="padding: 5vh 0;"></h1>
+            <h1 style="padding: 8vh 0;"></h1>
+            <script>
+                displayPortfolio();
+            </script>
         </section>
 
         <script>
-            displayPortfolio();
 
             $(document).ready(function() {
                 $("a").on('click', function(event) {
