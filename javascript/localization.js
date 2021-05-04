@@ -12,7 +12,6 @@ $(document).ready(() => {
     document.getElementById("intro-p1").innerText = strings["_introP1"][langIndex];
     document.getElementById("intro-p2").innerText = strings["_introP2"][langIndex];
     document.getElementById("intro-p3").innerText = strings["_introP3"][langIndex];
-    document.getElementById("intro-p4").innerText = strings["_introP4"][langIndex];
     document.getElementById("highlightTitle").innerHTML = strings["_highlights"][langIndex];
     document.getElementById("projectsTitle").innerHTML = strings["_projects"][langIndex];
 })
@@ -31,8 +30,8 @@ const strings = {
         "Sou Paula Torales Leite e Desenvolvedora iOS."
     ],
     _introP1: [
-        "I strive to build efficient and clean apps through user-centric design and am currently an iOS Developer at Apple Developer Academy | Mackenzie.",
-        " Eu me esforço para criar apps eficientes e limpos por meio de um design centrado no usuário e sou Desenvolvedora iOS na Apple Developer Academy | Mackenzie"
+        "I strive to build efficient, clean and accessible apps through user-centric design and am currently an iOS Mentor at Apple Developer Academy | Mackenzie.",
+        " Eu me esforço para criar apps eficientes, limpos e acessíveis por meio de um design centrado no usuário e sou Mentora de iOS na Apple Developer Academy | Mackenzie"
     ],
     _introP2: [ 
         "In addition to my development work, I’m also an avid reader, sharing my love through GoodReads. I’m also a part of a collective called Zero e Umas, which strives to capacite women in the tech world, in Brazil.",
